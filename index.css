@@ -1,0 +1,117 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald';
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url("images/tyson-moultrie-BQTHOGNHo08-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+.text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 90px;
+    padding-left: 50px;
+    font-size: 1.5rem;   
+}
+
+.my-watchlist {
+    padding-left: 260px;
+    font-size: 1.2rem;     
+}
+
+a {
+    text-decoration: none;
+}
+
+.text,
+a {
+    color: whitesmoke;    
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 0;
+    width: 100vw;
+    padding: 10px;
+}
+
+.search-bar input {
+    border: 0.1px solid #D1D5DA;
+    font-family: 'Inconsolata';
+    background-repeat: no-repeat;
+    margin-top: 1px;
+}
+
+.search-bar input[type=text] {
+    width: 70vw;
+    height: 7vh;
+    padding-left: 30px;
+    background-image: url('../images/search-icon.png');
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search-bar input[type=button] {
+    width: 15vw;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #F9FAFB;
+}
+
+.movie-detail {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    font-size: 0.8rem;
+    width: 90vw;
+    height: 50vh;
+}
+
+.movie-image {
+    width: 20vw;
+    height: 40vh;
+}
+
+.movie-box {
+    margin-top: 50px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 1px solid #D1D5DA;
+}
+
+.add-btn,
+.remove-btn {
+    border: none;
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.add,
+.minus {
+   background-color: black;
+   color: white;
+   border-radius: 50%;
+   padding: 3px 8px 5px;
+   font-weight: bold;
+   font-size: 15px;
+   text-align: center;
+}
